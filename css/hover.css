@@ -1,0 +1,50 @@
+li{
+    list-style: none;
+}
+
+.list-group>li>a{
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.list-group>li>a:hover{
+    color: #fda800;
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+}
+#active a{
+
+}
+#active a{
+
+    color:#fda800;
+}
+.modal-header .log h1{
+    transition:all .3s;
+}
+.modal-header .log h1:hover{
+    color:#fda800;
+}
+.fa-5x{
+    transition: all .3s;
+}
+.fa-5x:hover{
+    color: #fda800;
+}
+.footer a{
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.footer a:hover{
+    color:#fda800;
+}
+hr{
+    border-color:#444;
+}

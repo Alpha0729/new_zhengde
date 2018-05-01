@@ -1,0 +1,23 @@
+.footer{
+    background-color: #202222;
+    color:#999;
+    padding: 3rem
+}
+.footer a{
+    color:#999;
+}
+.footer img{
+    padding:2rem 2rem;
+}
+.footer p{
+    padding: 2rem 2rem;
+}
+.footer .list-inline{
+    line-height: 4rem;
+}
+.footer .phone{
+    font-size: 2.2rem;
+}
+.footer .ICP{
+    font-size:12px;
+}

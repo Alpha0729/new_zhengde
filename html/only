@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="icon" href="../icon/web_log.png">
+    <link rel="stylesheet" href="../public_css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public_css/swiper-4.2.0.min.css">
+    <link rel="stylesheet" href="../public_css/animate.min.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/hover.css">
+
+    <link rel="stylesheet" href="../css/work.css">
+</head>
+<body style="">
+<div class="work">
+    <div class="header col-md-12 col-xs-12 col-sm-12 wow bounceInDown">
+        <div class="container modal-header clearfix">
+            <div class="log pull-left col-md-4 col-sm-4 hidden-sm hidden-xs">
+                <a href="../index.html">
+                    <img class="pull-left" src="../icon/web_log.png" alt="">
+                    <h1 class="pull-left">正德集团</h1>
+                </a>
+            </div>
+            <ul class="list-group pull-right clearfix col-md-8 col-sm-12 col-xs-12 text-center">
+                <li class=" pull-left col-lg-2 col-sm-3"><a href="javaScript:;">首页</a>
+                </li>
+                <li id="active" class="pull-left col-lg-2 col-sm-3"><a href="javaScript:;">主营业务</a></li>
+                <li class="pull-left col-lg-2 col-sm-3"><a href="javaScript:;">关于我们</a></li>
+                <li class="pull-left col-lg-2 col-sm-3"><a href="javaScript:;">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--content-->
+    <div class="content">
+        <div class="tale img-responsive">
+           <div class="container tale_con clearfix">
+               <div class="pull-left text col-sm-8">
+                   <h2>雄厚的资金背景</h2>
+                   <p>同多家券商、银行、私募机构及国内财团
+                       合作，拥有广泛的市场关系网络，背靠雄
+                       厚资金，运作资产数亿元，打造垂直领域
+                       的金融生态体系，链接中国证券交易市场。</p>
+                   <h2>一流的技术团队</h2>
+                   <p>
+                       拥有多年实战经验交易团队，平均
+                       行业交易经验8年以上，人均运作资
+                       产千万级别，形成多套成熟、有效
+                       交易体系，通过团队化系统交易，
+                       确权益持续稳定增长。
+                   </p>
+               </div>
+               <img class="img-responsive pull-right col-sm-4" src="../images/gr.png" alt="">
+           </div>
+        </div>
+        <div class="container open">
+            <div>
+                <h3 class="">股票/期货开户</h3>
+                <div class="">
+                    <div class="col-md-4">
+                        <h4 class="borderL">优势</h4>
+                        <p>
+                            1、同国内多家股票、期货公司合作， 线开通交易账户，任意选择开户商，方便、快 捷、低手续费，第三方托管，资金绝对安全。
+                        </p>
+                        <p>
+                            2、股票/期货资金可扩大1至10倍任意选（期货最大20倍），资金充足。
+                        </p>
+                        <p>
+                            3、保本模式、固定收益模式，无息手续费模式，无息分红模式等，多种模式交易模式任意选。
+                        </p>
+                    </div>
+                    <img class="col-md-6 col-md-offset-1 img-responsive" src="../images/opne.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="trader">
+            <div class="container trader_con">
+                <h3>金融教育</h3>
+                <h4 class="borderB">操盘手培训 <small>我们的优势</small></h4>
+                <div class="col-md-8 col-sm-8">
+                    <p>
+                        1、一切从实战出发，培养优秀实战型交易员
+                    </p>
+                    <p>
+                        2、总结多年团队交易经验，独立编
+                        纂教材，站在实战角度，从心理
+                        学、定位、交易实战多方面、理
+                        论实战相结合。
+                    </p>
+                    <p>
+                        3、高频、波段、趋势，多套成熟交易模型因材施教
+                    </p>
+                    <p>
+                        4、资深实战讲师团队，成熟的交易
+                        模型，通过理论培训加持续实操
+                        训练总结，实现稳定盈利型操盘
+                        手培养体系
+                    </p>
+                    <p>
+                        5、通过整合金融市场，深入挖掘，
+                        严格筛选优秀操盘手基金管理人
+                        组建讲师团队，一流的教学资源
+                        平台全方位培养优秀操盘手
+                    </p>
+                    <p>
+                        6、培训期间，公司为每位学员提供2万元期货资金账户
+                    </p>
+                    <p>
+                        7、通过结业考试后，高新推荐就业（证券公司、期货公司、基金公司），扶持创业。
+                    </p>
+                </div>
+                <i class="fa fa-free-code-camp col-sm-4 col-md-4 fa-5x  hidden-xs">
+                </i>
+            </div>
+        </div>
+
+    </div>
+    <!--尾部-->
+    <div class="footer">
+        <div class="container">
+            <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 hidden-xs">
+                <h4>官方 QQ 微信</h4>
+                <img title="加群有惊喜哦" class="img-responsive col-xs-6 col-md-6" src="../images/QQcode.png" alt="">
+                <img title="加群有惊喜哦" class="img-responsive col-xs-6 col-md-6" src="../images/weixin_code.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-6">
+                <h4>友情链接</h4>
+                <ul class="col-lg-8 list-inline">
+                    <li class="col-md-4  col-sm-4"><a href="http://www.zhengjinhui.com">正金汇</a></li>
+                    <li class="col-md-4 col-sm-4"><a href="http://www.zhanyitansu.com">展毅碳素</a></li>
+                    <li class="col-md-4 col-sm-4"><a href="http://www.rohon.net/">上海荣行</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 ">
+                <h4>客户电话</h4>
+                <ul class="col-lg-8 list-inline phone">
+                    <li class="col-sm-12">400-969-3996</li>
+                    <li class="col-sm-12">147-0330-3637</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="ICP text-center container">
+            © 2017-2020 版权所有 | www.zhengdejituan.net<br>
+            备案：冀ICP备18000985号-1
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../public_js/jquery.js"></script>
+<script type="text/javascript" src="../public_js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../public_js/swiper.animate1.0.3.min.js"></script>
+<script type="text/javascript" src="../public_js/wow.min.js"></script>
+<script type="text/javascript" src="../public_js/swiper-4.2.0.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        //direction: 'vertical', //垂直翻滚
+        direction: 'horizontal', //水平翻滚
+        loop: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        // 如果需要滚动条
+        scrollbar: {
+            //el: '.swiper-scrollbar',
+        },
+    })
+</script>
+<script>
+    new WOW().init();
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+

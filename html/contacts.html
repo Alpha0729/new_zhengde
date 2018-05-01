@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <!--公共框架-->
+    <link rel="icon" href="../icon/web_log.png">
+    <link rel="stylesheet" href="../public_css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public_css/swiper-4.2.0.min.css">
+    <link rel="stylesheet" href="../public_css/animate.min.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--高德地图坐标-->
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script src="http://webapi.amap.com/maps?v=1.4.5&key=09c7581c4ba13779ec5fdedad27f9de5"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+    <!--公共样式-->
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/hover.css">
+
+    <link rel="stylesheet" href="../css/contacts.css">
+</head>
+<body style="">
+<div class="box">
+    <div class="header col-md-12 col-xs-12 col-sm-12 wow bounceInDown">
+        <div class="container modal-header clearfix">
+            <div class="log pull-left col-md-4 col-sm-4 hidden-sm hidden-xs">
+                <a href="../index.html">
+                    <img class="pull-left" src="../icon/web_log.png" alt="">
+                    <h1 class="pull-left">正德集团</h1>
+                </a>
+            </div>
+            <ul class="list-group pull-right clearfix col-md-8 col-sm-12 col-xs-12 text-center">
+                <li class=" pull-left col-lg-2 col-sm-3"><a href="../index.html">首页</a>
+                </li>
+                <li class="pull-left col-lg-2 col-sm-3"><a href="work.html">主营业务</a></li>
+                <li class="pull-left col-lg-2 col-sm-3"><a href="only.html">关于我们</a></li>
+                <li id="active" class="pull-left col-lg-2 col-sm-3"><a href="contacts.html">联系我们</a></li>
+                <li class="pull-left col-lg-2 col-sm-3"><a href="joins.html">合作伙伴</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--content-->
+    <div class="content">
+        <div class="container kefu">
+
+        </div>
+        <div class="contacts_content container">
+            <div class="col-md-6">
+               <h3> 联系我们：</h3>
+                <p>
+                    公司：正德管理服务咨询有限公司
+                </p>
+                <p>
+                    客户电话：400-969-3996 <br>
+                    业务咨询：147-0330-3637<br>
+                    工作时间：8:30-18:00<br>
+                    E-mail：hbzhengdejinrong@163.com <br>
+                    公司官网：www.zhengdejituan.net <br>
+                    公司地址：河北省邯郸市邯山区陵园路康桥国际29层(整层) <br>
+                </p>
+            </div>
+            <div id="map" class="col-md-6"></div>
+        </div>
+    </div>
+    <!--尾部-->
+    <div class="footer">
+        <div class="container">
+            <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 hidden-xs">
+                <h4>官方 QQ 微信</h4>
+                <img title="加群有惊喜哦" class="img-responsive col-xs-6 col-md-6" src="../images/QQcode.png" alt="">
+                <img title="加群有惊喜哦" class="img-responsive col-xs-6 col-md-6" src="../images/weixin_code.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-6">
+                <h4>友情链接</h4>
+                <ul class="col-lg-8 list-inline">
+                    <li class="col-md-4  col-sm-4"><a href="http://www.zhengjinhui.com">正金汇</a></li>
+                    <li class="col-md-4 col-sm-4"><a href="http://www.zhanyitansu.com">展毅碳素</a></li>
+                    <li class="col-md-4 col-sm-4"><a href="http://www.rohon.net/">上海荣行</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 ">
+                <h4>客户电话</h4>
+                <ul class="col-lg-8 list-inline phone">
+                    <li class="col-sm-12">400-969-3996</li>
+                    <li class="col-sm-12">147-0330-3637</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="ICP text-center container">
+            © 2017-2020 版权所有 | www.zhengdejituan.net<br>
+            备案：冀ICP备18000985号-1
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../public_js/jquery.js"></script>
+<script type="text/javascript" src="../public_js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../public_js/swiper.animate1.0.3.min.js"></script>
+<script type="text/javascript" src="../public_js/wow.min.js"></script>
+<script type="text/javascript" src="../public_js/swiper-4.2.0.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        //direction: 'vertical', //垂直翻滚
+        direction: 'horizontal', //水平翻滚
+        loop: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        // 如果需要滚动条
+        scrollbar: {
+            //el: '.swiper-scrollbar',
+        },
+    })
+</script>
+<script>
+    new WOW().init();
+</script>
+<script>
+    var map = new AMap.Map('map', {
+        resizeEnable: true,
+        center: [114.513565,36.596482],
+        zoom: 13,
+    });
+    var marker = new AMap.Marker({
+        position: map.getCenter(),
+        draggable: true,
+        //cursor: 'move',
+    });
+    marker.setMap(map);
+    // 设置点标记的动画效果，此处为弹跳效果
+    marker.setAnimation('AMAP_ANIMATION_BOUNCE');
+    marker.setTitle('正德集团');
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

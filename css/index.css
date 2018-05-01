@@ -1,0 +1,144 @@
+.wow {
+    border: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+.zd_box .header {
+    padding: .5rem 0;
+}
+
+.header {
+    background: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.list-group {
+    margin: 0rem;
+}
+
+.modal-header {
+    border: none;
+    padding: 0;
+}
+
+.modal-header .log {
+    height: 6rem;
+    line-height: 6rem;
+}
+
+.modal-header .log img {
+    height: 100%;
+}
+
+.list-group > li > a {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 6rem;
+    text-decoration: none;
+}
+
+.modal-header .log h1 {
+    margin: 0 0 0 3rem;
+    line-height: 6.5rem;
+    color: #fff;
+
+}
+
+.swiper-container {
+    margin: 10rem 0 3rem;
+    height: 300px;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide h1 {
+    text-align: center;
+    line-height: 300px;
+    margin: 0;
+}
+
+.content .firm {
+    font-family: '楷体';
+}
+
+.content .firm {
+    background: url("../images/lead.jpg") 0 250%;
+    background-size: 100% 100%;
+}
+
+.content .lead h2 {
+    color: #fda800;
+}
+
+.content .lead p {
+    line-height: 5rem;
+    color: #fff;
+    text-shadow: 4px 4px 3px #000;
+}
+
+.work {
+    padding: 3px 0 6rem;
+}
+
+.work h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.work div p {
+    line-height: 4rem;
+}
+
+.content .mate {
+    padding: 2rem 0;
+    color: #fff;
+    background: url("../images/xingxing.jpg");
+    background-size: 100%;
+}
+
+.footer {
+    background-color: #202222;
+    color: #999;
+    padding: 3rem
+}
+
+.footer a {
+    color: #999;
+}
+
+.footer img {
+    padding: 2rem 2rem;
+}
+
+.footer p {
+    padding: 2rem 2rem;
+}
+
+.footer .list-inline {
+    line-height: 4rem;
+}
+
+.footer .phone {
+    font-size: 2.2rem;
+}
+
+.footer .ICP {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

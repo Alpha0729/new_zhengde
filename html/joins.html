@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <!--公共框架-->
+    <link rel="icon" href="../icon/web_log.png">
+    <link rel="stylesheet" href="../public_css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public_css/swiper-4.2.0.min.css">
+    <link rel="stylesheet" href="../public_css/animate.min.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--公共样式-->
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/hover.css">
+
+    <link rel="stylesheet" href="../css/joins.css">
+</head>
+<body style="">
+<div class="box">
+    <div class="header col-md-12 col-xs-12 col-sm-12 wow bounceInDown">
+        <div class="container modal-header clearfix">
+            <div class="log pull-left col-md-4 col-sm-4 hidden-sm hidden-xs">
+                <a href="../index.html">
+                    <img class="pull-left" src="../icon/web_log.png" alt="">
+                    <h1 class="pull-left">正德集团</h1>
+                </a>
+            </div>
+            <ul class="list-group pull-right clearfix col-md-8 col-sm-12 col-xs-12 text-center">
+                <li class=" pull-left col-lg-2 col-sm-3"><a href="../index.html">首页</a>
+                </li>
+                <li class="pull-left col-lg-2 col-sm-3"><a href="work.html">主营业务</a></li>
+                <li class="pull-left col-lg-2 col-sm-3"><a href="only.html">关于我们</a></li>
+                <li class="pull-left col-lg-2 col-sm-3"><a href="contacts.html">联系我们</a></li>
+                <li id="active" class="pull-left col-lg-2 col-sm-3"><a href="joins.html">招商加盟</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--content-->
+    <div class="content">
+        <div class="joins_title container"></div>
+        <div class="container">
+            <h3>如何加入我们</h3>
+            <p>
+                您只需要有一个简单的门面，没错您只需要一个门面，没看错就是这么简单！
+            </p>
+        </div>
+        <div class="container">
+            <h5>我们的优势:</h5>
+            <ul>
+                <li>
+                股票、期货开户： <small>超高佣金返还</small>
+                </li>
+                <li>
+                    交易员培训：  <small>最高80%费用返还</small>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--尾部-->
+    <div class="footer">
+        <div class="container">
+            <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 hidden-xs">
+                <h4>官方 QQ 微信</h4>
+                <img title="加群有惊喜哦" class="img-responsive col-xs-6 col-md-6" src="../images/QQcode.png" alt="">
+                <img title="加群有惊喜哦" class="img-responsive col-xs-6 col-md-6" src="../images/weixin_code.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-6">
+                <h4>友情链接</h4>
+                <ul class="col-lg-8 list-inline">
+                    <li class="col-md-4  col-sm-4"><a href="http://www.zhengjinhui.com">正金汇</a></li>
+                    <li class="col-md-4 col-sm-4"><a href="http://www.zhanyitansu.com">展毅碳素</a></li>
+                    <li class="col-md-4 col-sm-4"><a href="http://www.rohon.net/">上海荣行</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 ">
+                <h4>客户电话</h4>
+                <ul class="col-lg-8 list-inline phone">
+                    <li class="col-sm-12">400-969-3996</li>
+                    <li class="col-sm-12">147-0330-3637</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="ICP text-center container">
+            © 2017-2020 版权所有 | www.zhengdejituan.net<br>
+            备案：冀ICP备18000985号-1
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../public_js/jquery.js"></script>
+<script type="text/javascript" src="../public_js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../public_js/swiper.animate1.0.3.min.js"></script>
+<script type="text/javascript" src="../public_js/wow.min.js"></script>
+<script type="text/javascript" src="../public_js/swiper-4.2.0.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        //direction: 'vertical', //垂直翻滚
+        direction: 'horizontal', //水平翻滚
+        loop: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        // 如果需要滚动条
+        scrollbar: {
+            //el: '.swiper-scrollbar',
+        },
+    })
+</script>
+<script>
+    new WOW().init();
+</script>
+<script>
+    var map = new AMap.Map('map', {
+        resizeEnable: true,
+        center: [114.513565, 36.596482],
+        zoom: 13,
+    });
+    var marker = new AMap.Marker({
+        position: map.getCenter(),
+        draggable: true,
+        //cursor: 'move',
+    });
+    marker.setMap(map);
+    // 设置点标记的动画效果，此处为弹跳效果
+    marker.setAnimation('AMAP_ANIMATION_BOUNCE');
+    marker.setTitle('正德集团');
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

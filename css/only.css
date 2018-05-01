@@ -1,0 +1,77 @@
+/*关系我们*/
+body{
+   background-color:#f9f9f9;
+}
+.content {
+
+}
+
+.content .only_title {
+    background: url("../images/bang.jpg") no-repeat;
+    padding: 4rem 0;
+}
+
+.content .only_title h2 {
+    color: #fff;
+    font-family: '宋体';
+    text-align: center;
+}
+
+.content .only_title .only_arr {
+    padding: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.content .only_title .only_arr small {
+    display: inline-block;
+    text-indent: 2em;
+}
+
+.only_say {
+    background-color: #fff;
+    padding: 2rem 0;
+}
+
+.only_say h2 {
+    text-align: center;
+    padding: 2rem 0;
+}
+.only_say img{
+    padding:0 8rem 0 10rem;
+}
+.only_say p {
+    text-indent: 2em;
+    letter-spacing: 2px;
+}
+
+.only_photo {
+    background: -webkit-linear-gradient(#8a8a8a, #000);
+    background: linear-gradient(#fefefe, #222)
+}
+
+.only_photo h2 {
+    text-align: center;
+    color: #000;
+}
+
+.only_photo ul {
+    display: inline-block;
+
+}
+.only_photo ul li{
+    padding:1rem 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

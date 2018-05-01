@@ -1,0 +1,50 @@
+body{
+    background-color: #fff;
+}
+.zd_box .col-md-12{
+    padding: .5rem 0;
+}
+.col-md-12{
+    background: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+    padding: .5rem 0;
+}
+
+.list-group{
+    margin: 0rem;
+}
+.modal-header{
+    border:none;
+    padding:0;
+}
+.modal-header .log{
+    line-height: 6rem;
+}
+.modal-header .log img{
+    height: 6rem;
+}
+.list-group>li>a{
+    color:#fff;
+    font-size: 1.6rem;
+    line-height: 6rem;
+    text-decoration: none;
+}
+.modal-header .log h1{
+    margin: 0 0 0 3rem;
+    line-height: 6.5rem;
+    color:#fff;
+
+}
+.content{
+    margin-top: 6rem;
+    padding:3rem 0;
+}
+
+
+
+
+
+
